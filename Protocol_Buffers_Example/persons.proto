@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message Person {
+    int32 id = 1;
+    string name = 2;
+    string gender = 3;
+    float salary = 4;
+}
+
+message Persons {
+    repeated Person person = 1;
+}
+

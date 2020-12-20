@@ -1,0 +1,6 @@
+ To install the complier 
+ https://github.com/protocolbuffers/protobuf/releases?after=v3.12.4
+
+
+ Command to build a pb.js file from protoc.exe (complier)
+ protoc.exe --js_out=import_style=commonjs,binary:. persons.proto
